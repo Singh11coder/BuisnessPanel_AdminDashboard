@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+# DigitalBusinessPanel_React_App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📊 Admin Dashboard with Calendar Integration
 
-## Available Scripts
+A comprehensive **React-based Admin Dashboard** application featuring business analytics, calendar management, task tracking, and data visualization — all wrapped in a modern dark-themed UI.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📈 Dashboard Analytics
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Revenue Tracking**
+  - Real-time revenue monitoring
+  - Percentage change indicators
 
-### `npm test`
+- **Order Management**
+  - Track total orders
+  - Trend analysis for growth insights
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Expense Monitoring**
+  - Keep track of business expenses
 
-### `npm run build`
+- **Profit Calculation**
+  - Automated profit calculations
+  - Actionable business insights
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Overview Statistics**
+  - Top-selling items
+  - Daily averages
+  - Item counts
+  - Profitability metrics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📅 Calendar Module
 
-### `npm run eject`
+- **Multiple View Modes**
+  - Month view for overview
+  - Week view for detailed planning
+  - Day view for granular scheduling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Event Management**
+  - Create, view, and manage events
+  - Time-slot-based scheduling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Color-coded Events**
+  - Visual distinction between different event types
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Navigation Controls**
+  - Smooth navigation between dates and periods
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Event Details**
+  - Event title
+  - Time range
+  - Description
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ✅ Task Management (Trello Board)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Kanban Board Layout**
+  - Backlog
+  - TODO
+  - Doing
+  - Completed
 
-### Code Splitting
+- **Drag-and-Drop Interface**
+  - Seamlessly move tasks between columns
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Task Cards**
+  - Task title
+  - Description
+  - Delete functionality
 
-### Analyzing the Bundle Size
+- **Add New Tasks**
+  - Quickly create tasks in any column
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 📋 Data Table
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Sortable Columns**
+  - First Name
+  - Last Name
+  - Address
+  - City
+  - State
 
-### Advanced Configuration
+- **Search Functionality**
+  - Fast and efficient data filtering
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Responsive Design**
+  - Fully optimized for all screen sizes
 
-### Deployment
+- **Multiple Actions**
+  - Column-specific filters and actions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Frontend Framework:** React.js
+- **Styling:** CSS3 (Custom Dark Theme)
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Date Handling:** JavaScript Date API
+- **Icons:** Custom icon integration
+- **Responsive Design:** Mobile-first approach
+
+---
+
+## [Dashboard Preview](screenshots/dashboard.png)
+<img width="1914" height="892" alt="image" src="https://github.com/user-attachments/assets/f78b9617-7912-4c16-9b6c-2f1c6974920f" />
+
+
+<img width="1904" height="879" alt="image" src="https://github.com/user-attachments/assets/830819da-dadf-4255-a09e-dc0e2140ddd7" />
+
+
+<img width="1905" height="877" alt="image" src="https://github.com/user-attachments/assets/fef0ef75-fcb9-4ffe-ba57-e35782096a54" />
+
+
+<img width="1903" height="881" alt="image" src="https://github.com/user-attachments/assets/d4c1144a-a3b3-4c27-9d33-7837471fec03" />
+
+
+<img width="1905" height="878" alt="image" src="https://github.com/user-attachments/assets/c6c3d4bb-6326-48f7-ba41-8c6283dbe4b4" />
+
+
+<img width="1902" height="875" alt="image" src="https://github.com/user-attachments/assets/8756faa2-d755-440e-978e-fa52821db413" />
+
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Singh11coder/DigitalBusinessPanel_React_App.git
+
+# Navigate to the project
+cd DigitalBusiness-AdminPanel
+
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
